@@ -1,0 +1,69 @@
+body {
+  background-image: url("bg.png");
+  background-repeat: repeat;
+  font-family: "Oxygen", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.header > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.track {
+  margin-top: 30px;
+  position: relative;
+  height: 100px;
+  margin-left: -10px;
+  background-image: url(track.png);
+  overflow-x: hidden;
+}
+
+#train {
+  position: absolute;
+  height: 100px;
+  top: 0;
+  left: 0;
+}
+
+.header > h1 {
+    color: white;
+    font-weight: 700;
+}
+
+.header > h2 {
+  color: white;
+  font-weight: 400;
+}
+
+.social {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.social > p {
+  display: inline;
+  color: white;
+}
+
+.social > p > a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+}
+
+@media (max-width: 580px){
+  .social > p{
+    display:block;
+  }
+  .social > .dot {
+    display: none;
+  }
+}
