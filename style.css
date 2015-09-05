@@ -57,6 +57,12 @@ body {
   text-decoration: none;
   font-weight: 700;
   color: white;
+  transition:all 0.3s ease-out;
+}
+
+.social > p > a:hover {
+  transition:all 0.3s ease-in;
+  color: #6987c9;
 }
 
 @media (max-width: 580px){
