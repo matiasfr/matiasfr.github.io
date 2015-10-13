@@ -8,7 +8,7 @@ function doMove() {
 function init() {
 //  foo = document.getElementById('train'); // get the "foo" object
   //foo.style.left = '0px'; // set its initial position to 0px
-  //doMove(); // start animating
+  // doMove(); // start animating
 }
 
 window.onload = init;
